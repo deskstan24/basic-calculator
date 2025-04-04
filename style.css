@@ -5,13 +5,62 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
-  width: 500px;
-  height: 500px;
+  align-items: center;
+  width: 450px;
+  height: 450px;
   background-color: #808080;
+}
+
+.container-item {
+  flex: 1;
 }
 
 button {
   width: 100px;
-  height: 50px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: 400;
+  outline: none;
+  border: 0;
+}
+button:hover {
+  background-color: #e0e0e0;
+}
+.container-item .clear {
+  width: 100px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.container-item input {
+  height: 58px;
+  font-size: 50px;
+  width: 300px;
+  outline: none;
+  border: 0px;
+}
+
+.display {
+  padding: 2px;
+  background-color: #eaeef3;
+  color: rgb(41, 40, 40);
+  text-align: right;
+  width: 300px;
+  height: 58px;
+}
+
+.previousNumber {
+  /* min-height: 24px; */
+  font-size: 1rem;
+  /* color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 5px; */
+  word-wrap: break-word;
+}
+
+.currentNumber {
+  font-size: 2.5rem;
+  /* font-weight: bold;
+  min-height: 20px; */
+  word-wrap: break-word;
 }
