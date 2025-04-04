@@ -64,7 +64,7 @@ function calculate() {
     case "-":
       result = prev - current;
       break;
-    case "x":
+    case "X":
       result = prev * current;
       break;
     case "/":
